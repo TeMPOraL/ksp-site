@@ -4,4 +4,187 @@
 
 #+startup: hidestars
 
-Hello!
+#+URL: http://blog.example.com/
+
+#+TEMPLATE_DIR: ./templates
+#+FILENAME_SANITIZER: ob-sanitize-string
+
+* Hello World
+  :PROPERTIES:
+  :PAGE: index.html
+  :TEMPLATE: blog_static_no_title.html
+  :END:
+
+  Foo bar.
+
+** Last updates
+
+** Universes
+   All universes the Tempoverse comprises of.
+
+  - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/index.html][0.25 Career]]
+  - [[file:{lisp}(ob:path-to-root){/lisp}/uni/090C/index.html][0.90 Career - coming soon!]]
+
+
+* Blog details
+** Copyright
+  :PROPERTIES:
+  :SNIPPET:  t
+  :END:
+
+   Copyright © 2014-forever, TeMPOraL. TODO license.
+
+** About
+  :PROPERTIES:
+  :SNIPPET:  t
+  :END:
+
+   A KSP bliki.
+
+** Navigation
+  :PROPERTIES:
+  :SNIPPET:  t
+  :END:
+
+# Path to files: file:{lisp}(ob:path-to-root){/lisp}/templates.html
+
+- [[file:{lisp}(ob:path-to-root){/lisp}/news.html][/icon-file icon-white/ Last updates]]
+
+- [[file:#][/icon-book icon-white/ Universes]]
+  - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/index.html][0.25 Career]]
+  - [[file:{lisp}(ob:path-to-root){/lisp}/uni/090C/index.html][0.90 Career - coming soon!]]
+
+- [[file:{lisp}(ob:path-to-root){/lisp}/index.xml][/icon-rss icon-white/ RSS]]
+
+- [[file:{lisp}(ob:path-to-root){/lisp}/debug.html][(debug)]]
+
+** Navigation Footer
+  :PROPERTIES:
+  :SNIPPET:  t
+  :END:
+
+** Articles by tags
+  :PROPERTIES:
+  :PAGE:     tags.html
+  :TEMPLATE: blog_post-by-tags.html
+  :END:
+
+
+* Universe - 0.25 Career
+** 025C - 0.25 Career Mode
+  :PROPERTIES:
+  :PAGE:     uni/025C/index.html
+  :END:
+   My first serious take on Kerbal Space Program.
+
+*** Backstory
+    /Documentation of this universe started after I already played it for something like 40 hours. This serves as a summary of things that happened before I started this page./
+
+    TODO.
+
+*** Starting points
+    - Recent updates.
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions.html][List of planned, ongoing and completed missions]].
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases.html][List of base projects]].
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships.html][List of ship projects]].
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies.html][List of space agencies in this universe]].
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/mods.html][Mods used in this universe]].
+
+** List of Missions
+  :PROPERTIES:
+  :PAGE:     uni/025C/missions.html
+  :END:
+
+*** Planned
+*** Ongoing
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/mun-skycrane.html][Mün Skycrane]]
+*** Completed
+
+
+** Missions
+*** Mün Skycrane
+  :PROPERTIES:
+  :PAGE:     uni/025C/missions/mun-skycrane.html
+  :END:
+    TODO embed gallery.
+
+** List of Bases
+  :PROPERTIES:
+  :PAGE:     uni/025C/bases.html
+  :END:
+
+   - Space Station One
+   - Beehive Mk1
+
+** List of Ships
+  :PROPERTIES:
+  :PAGE:     uni/025C/ships.html
+  :END:
+
+   - Worker Bee Mk1 (Manned)
+   - Hauler Bee Mk1 (Manned)
+
+   - The Plane
+
+** Ships
+
+*** Worker Bee Mk1 (Manned)
+    
+
+** List of Agencies
+  :PROPERTIES:
+  :PAGE:     uni/025C/agencies.html
+  :END:
+
+   This list contains all agencies that have associated stories within the universe.
+
+   - Space Agencies
+     Textual description.
+     
+     A paragraph or three.
+
+     More.
+
+   - Construction Agencies
+   - Research Agencies
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/hexagon.html][Hexagon Research]]
+    - Temporal Research Centre
+
+** Agencies
+*** Hexagon Research
+  :PROPERTIES:
+  :PAGE:     uni/025C/agencies/hexagon.html
+  :END:
+    Description + logo.
+
+** Mods
+  :PROPERTIES:
+  :PAGE:     uni/025C/mods.html
+  :END:
+   List of mods used in this universe.
+
+*** Parts/gameplay mods
+    - Fine Print
+    - Kethane
+
+*** Utility mods
+    - Kerbal Engineer Redux
+    - Kerbal Alarm Clock
+    - Enhanced Navball
+
+*** Vanity mods
+   - Astronomer's something
+   - Collision Fx
+   - Hot Rockets
+
+* Universe - 0.90 Career
+** 090C - 0.90 Career Mode
+   :PROPERTIES:
+   :PAGE: uni/090C/index.html
+   :TEMPLATE: blog_static.html
+   :END:
+   
+   This page is a placeholder for upcoming 0.90 Beta Than Ever KSP release.
+
+   [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/index.html][0.25C]] will be migrated into this reality if possible, or a separate thread will start here.
+
