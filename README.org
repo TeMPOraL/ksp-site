@@ -1,0 +1,3 @@
+A little KSP wiki/blog.
+
+Powered by renard's [[https://github.com/renard/o-blog/tree/o-blog-v1][o-blog v1]].

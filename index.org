@@ -1,0 +1,7 @@
+#+title: Temp-o-KSP
+#-description: Kerbal Space Program in Tempoverse.
+#+date: 2014-12-11 22:09:00
+
+#+startup: hidestars
+
+Hello!
