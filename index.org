@@ -69,7 +69,6 @@
   :TEMPLATE: blog_post-by-tags.html
   :END:
 
-
 * Universe - 0.25 Career
 ** 025C - 0.25 Career Mode
   :PROPERTIES:
@@ -87,7 +86,8 @@
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions.html][List of planned, ongoing and completed missions]].
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases.html][List of base projects]].
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships.html][List of ship projects]].
-    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies.html][List of space agencies in this universe]].
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies.html][List of space agencies]].
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/standards.html][List of standards]].
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/mods.html][Mods used in this universe]].
 
 ** List of Missions
@@ -96,9 +96,16 @@
   :END:
 
 *** Planned
+    - McKerbley Refueling and Maintenance Station
+
 *** Ongoing
    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/mun-skycrane.html][Mün Skycrane]]
+   - Duna survey probe
+   - Worker Bees Mk1 Program
+
 *** Completed
+   - Mün survey probe
+   - Minmus survey probe
 
 
 ** Missions
@@ -106,15 +113,81 @@
   :PROPERTIES:
   :PAGE:     uni/025C/missions/mun-skycrane.html
   :END:
-    TODO embed gallery.
+
+    *STATUS: AWAITING RESCUE OP*
+
+    This mission involved designing of a rover and a lifting vehicle - a skycrane.
+
+    During the first orbital tests KSC command realized that the
+    orbiting module has enough fuel to actually get to the Mün,
+    therefore mission goals were quickly ammended.
+
+    The ship successfully arrived at the Mün days later and almost
+    successfully landed - the skycrane run out of fuel at the last
+    seconds of descent, crashing into surface and breaking one of the
+    rover's wheel in the process.
+
+    All in all, KSC considers this to be a first successfull
+    application of lithobraking on an off-world expedition.
+
+    The landing was attempted in the area TODO WHAT COMPANY wanted
+    surveyed by a rover; unfortunately, due to poor steering
+    capabilities of the broken rover, the survey could not be
+    completed.
+
+    The end result is, TODO WHO is stranded on the surface with a
+    broken rover, awaiting a planned rescue mission.
+
+    #+BEGIN_HTML
+    <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/RugsR/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
+    #+END_HTML
 
 ** List of Bases
   :PROPERTIES:
   :PAGE:     uni/025C/bases.html
   :END:
 
-   - Space Station One
-   - Beehive Mk1
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/space-station-one.html][Space Station One]]
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/beehive-mk1.html][Beehive Mk1]]
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/mckerbley-station.html][McKerbley Refueling and Maintenance Station]]
+
+** Bases
+
+*** Space Station One
+  :PROPERTIES:
+  :PAGE:     uni/025C/bases/space-station-one.html
+  :END:
+
+*** Beehive Mk1
+  :PROPERTIES:
+  :PAGE:     uni/025C/bases/beehive-mk1.html
+  :END:
+
+    The Beehive acts as a home, refueling and maintenance station for
+    Mark One Worker Bees. Developed by [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/maxo.html][Maxo Construction Toys]] for
+    Worker Bees Mk1 Program, this structure is likely going to be a
+    common view on all space construction sites.
+
+    The Beehive houses up to six Bees - up to four Worker Bees and up
+    to two Hauler Bees. The facility holds two TODO TYPE
+    monopropellant tanks and one TYPE liquid fuel tanks, and thus is
+    well-suited for ensuring ongoing construction operations.
+
+    #+begin_quote
+    With the Worker Bees Mark One Program we're hoping to standarize
+    construction operations across Kerbol System.
+    #+end_quote
+
+    The Beehive utilizes KSO 2048:1 standard for active visual markers
+    in space engineering applications, by having a blue beacon lighted up
+    over every free&operational bee docking port.
+
+*** McKerbley Refueling and Maintenance Station
+  :PROPERTIES:
+  :PAGE:     uni/025C/bases/mckerbley-station.html
+  :END:
+
+    McKerbley Station is a planned [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/maxo.html][Maxo Construction Toys]] project for an orbital facility.
 
 ** List of Ships
   :PROPERTIES:
@@ -126,10 +199,21 @@
 
    - The Plane
 
+   - Super Heavy Lifter
+
 ** Ships
 
 *** Worker Bee Mk1 (Manned)
-    
+
+*** Hauler Bee Mk1 (Manned)
+
+*** The Plane
+
+*** Mün Rover
+
+*** Mün Skycrane
+
+*** Super Heavy Lifter
 
 ** List of Agencies
   :PROPERTIES:
@@ -146,6 +230,7 @@
      More.
 
    - Construction Agencies
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/maxo.html][Maxo Construction Toys]]
    - Research Agencies
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/hexagon.html][Hexagon Research]]
     - Temporal Research Centre
@@ -156,6 +241,54 @@
   :PAGE:     uni/025C/agencies/hexagon.html
   :END:
     Description + logo.
+
+*** Maxo Construction Toys
+  :PROPERTIES:
+  :PAGE:     uni/025C/agencies/maxo.html
+  :END:
+    Description + logo.
+
+    Also link to: http://wiki.kerbalspaceprogram.com/wiki/Category:Maxo_Construction_Toys.
+
+** List of standards
+  :PROPERTIES:
+  :PAGE:     uni/025C/standards.html
+  :END:
+
+*** KSO standards
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/standards/kso-2048-1.html][KSO 2048:1 - active visual markers in space engineering]].
+
+** Standards
+*** KSO 2048:1 - Active Visual Markers in Space Engineering.
+   :PROPERTIES:
+   :PAGE:     uni/025C/standards/kso-2048-1.html
+   :END:
+
+    This standards document defines use of Active Visual Markers (AVMs, also
+    known as Light Beacons or Navlights) in space engineering
+    applications, such as construction and maintenance.
+
+**** Docking Port Beacons
+     Every docking port designed for engineering crafts should have a
+     blue AVM installed next to it.
+
+     The blue AVM MUST be ON in CONTINOUS LIGHT mode if the port is available for docking.
+
+     The blue AVM MUST be OFF if the port is reserved, off-service or a ship is docked with it.
+
+**** Docking Port Lights
+     All docking ports SHOULD be sufficiently illuminated by white light if the structure is operational.
+
+**** Ship Markings
+     Every engineering craft MUST have the following set of AVMs installed and active when operated.
+     - Red AVM on the port side, operating in CONTINOUS LIGHT mode.
+     - Green AVM on the starboard side, operating in CONTINOUS LIGHT mode.
+     - White AVM on the aft side, operating in CONTINOUS LIGHT mode.
+
+     Moreover, all angineering crafts MUST have the following set of
+     AVMs installed and active when performing engineering/maintenance
+     work, such as hauling other objects.
+     - Orange AVM on the bow side, operating in FLASH mode.
 
 ** Mods
   :PROPERTIES:
@@ -176,6 +309,8 @@
    - Astronomer's something
    - Collision Fx
    - Hot Rockets
+   - Procedural Fairings
+   - Chatterer
 
 * Universe - 0.90 Career
 ** 090C - 0.90 Career Mode
