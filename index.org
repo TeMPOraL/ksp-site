@@ -222,18 +222,19 @@
 
    This list contains all agencies that have associated stories within the universe.
 
-   - Space Agencies
+*** Space Agencies
      Textual description.
      
      A paragraph or three.
 
      More.
 
-   - Construction Agencies
+*** Construction Agencies
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/maxo.html][Maxo Construction Toys]]
-   - Research Agencies
+*** Research Agencies
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/hexagon.html][Hexagon Research]]
-    - Temporal Research Centre
+    - TRC
+      - TRC 4th Wall Division
 
 ** Agencies
 *** Hexagon Research
