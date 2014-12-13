@@ -1,4 +1,4 @@
-#+title: Temp-o-KSP
+#+title: KSP@Tempoverse
 #-description: Kerbal Space Program in Tempoverse.
 #+date: 2014-12-11 22:09:00
 
@@ -18,6 +18,10 @@
   Foo bar.
 
 ** Last updates
+   <2014-12-13 Sat> - the website got created! I'll be posting here
+   update/change logs as blog posts so that those of you who have been
+   here before can see what's new and how the Multiverse is
+   developing.
 
 ** Universes
    All universes the Tempoverse comprises of.
@@ -32,14 +36,14 @@
   :SNIPPET:  t
   :END:
 
-   Copyright © 2014-forever, TeMPOraL. TODO license.
+#+html: <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">KSP@Tempoverse</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://kerbals.buildsomethingamazing.com" property="cc:attributionName" rel="cc:attributionURL">TeMPOraL</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 ** About
   :PROPERTIES:
   :SNIPPET:  t
   :END:
 
-   A KSP bliki.
+   A KSP bliki, detailing the life and work of Kerbals in Tempoverse.
 
 ** Navigation
   :PROPERTIES:
@@ -48,13 +52,15 @@
 
 # Path to files: file:{lisp}(ob:path-to-root){/lisp}/templates.html
 
-- [[file:{lisp}(ob:path-to-root){/lisp}/news.html][/icon-file icon-white/ Last updates]]
+  - [[file:{lisp}(ob:path-to-root){/lisp}/news.html][/icon-file icon-white/ Last updates]]
 
-- [[file:#][/icon-book icon-white/ Universes]]
-  - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/index.html][0.25 Career]]
-  - [[file:{lisp}(ob:path-to-root){/lisp}/uni/090C/index.html][0.90 Career - coming soon!]]
+  - [[file:#][/icon-book icon-white/ Universes]]
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/index.html][0.25 Career]]
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/090C/index.html][0.90 Career - coming soon!]]
 
-- [[file:{lisp}(ob:path-to-root){/lisp}/index.xml][/icon-rss icon-white/ RSS]]
+  - [[file:{lisp}(ob:path-to-root){/lisp}/index.xml][/icon-rss icon-white/ RSS]]
+
+  - [[file:{lisp}(ob:path-to-root){/lisp}/about.html][/icon-asterisk icon-white/ About]]
 
 
 ** Navigation Footer
@@ -62,11 +68,76 @@
   :SNIPPET:  t
   :END:
 
+  - [[file:{lisp}(ob:path-to-root){/lisp}/news.html][/icon-file icon-white/ Last updates]]
+
+  - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/index.html][/icon-book icon-white/ 0.25 Career (025C)]]
+
+  - [[file:{lisp}(ob:path-to-root){/lisp}/index.xml][/icon-rss icon-white/ RSS]]
+
+  - [[file:{lisp}(ob:path-to-root){/lisp}/about.html][/icon-asterisk icon-white/ About]]
+
 ** Articles by tags
   :PROPERTIES:
   :PAGE:     tags.html
   :TEMPLATE: blog_post-by-tags.html
   :END:
+
+* About
+  :PROPERTIES:
+  :PAGE:     about.html
+  :END:
+
+** About this site
+   Hey!
+
+   I'm TeMPOraL and I'm a big KSP fan, totally addicted to it at the
+   moment. Since I'm not good at either storytelling nor doing videos,
+   I decided to keep a log of my KSP-verses in a wiki/blog (bliki)
+   format.
+
+   This page is a bit of an experiment in developing KSP worlds. I'm
+   not sure where it's headed, but we'll see in time :).
+
+   Enjoy the content and drop me an e-mail at =temporal.pl at gmail=
+   if you like it :).
+
+** Why the Multiverse?
+   Currently I'm playing KSP version 0.25 in career mode, so there's
+   just [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/index.html][that one universe]]. However, version 0.90 is coming soon, and
+   then again I might start goofing around in sandbox mode, and/or
+   with some big-impact mods like FAR or RSS. Therefore I already plan
+   to keep all those stories straight in separate unvierses (doesn't
+   mean they won't interact with each other though).
+
+   The Multiverse is codenamed /Tempoverse/ (yes, I suck at naming),
+   while particular universes are coded by version numbers and/or game
+   type and/or important mods (like 025C for 0.25 Career).
+
+** Technical details, aka. why it looks so crappy?
+   This website is just a bunch of static files generated via [[http://renard.github.io/o-blog/][o-blog]]
+   tool from an [[http://orgmode.org/][org-mode]] file, straight from [[http://www.gnu.org/software/emacs/][Emacs]]. Why did I build it
+   this way?
+
+   First of all, I don't want to overtax my poor little VPS server -
+   so little to no server-side processing, and all bigger images are
+   hosted on imgur (though I keep local backups just in case). In
+   general, I'm a fan of static pages - I'm not fond of wasting
+   electricity on repeated work :).
+
+   Secondly, I still haven't figured out how to configure nginx to
+   fork into any language runtime ;).
+
+   And last but not least, this is a thing I always wanted to do - to
+   have a website completely written in org-mode. I live and breathe
+   Emacs, and it's superconvenient for me to just update local files
+   in org-mode, and then automagically (well not yet, but in theory
+   with [[http://www.emacswiki.org/TrampMode][TRAMP]]) have them appear as a website on the server.
+
+   Things look a bit crappy, as I didn't really have time to do
+   styling (and playing KSP is much more fun than writing CSS defs),
+   but I'll probably get around to doing that at some point.
+
+   There's a [[https://github.com/TeMPOraL/ksp-site][Github repo]] for this site as well.
 
 * Universe - 0.25 Career
 ** 025C - 0.25 Career Mode
@@ -78,7 +149,12 @@
 *** Backstory
     /Documentation of this universe started after I already played it for something like 40 hours. This serves as a summary of things that happened before I started this page./
 
-    TODO.
+*** Summary
+    | *Celestial bodies scanned by Kerbals* |        3 |
+    | *Celestial bodies visited by Kerbals* |        3 |
+    | *Kerbals MIA*                         |        2 |
+    | *Kerbals stranded*                    |        2 |
+    | *Kessler syndrome danger*             | Moderate |
 
 *** Starting points
     - Recent updates.
@@ -177,9 +253,8 @@
     construction operations across Kerbol System.
     #+end_quote
 
-    The Beehive utilizes KSO 2048:1 standard for active visual markers
-    in space engineering applications, by having a blue beacon lighted up
-    over every free&operational bee docking port.
+    The Beehive utilizes [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/standards/kso-2048-1.html][KSO 2048:1 standard for active visual markers in space engineering applications]],
+    by having a blue beacon lighted up over every free&operational bee docking port.
 
 *** McKerbley Refueling and Maintenance Station
   :PROPERTIES:
