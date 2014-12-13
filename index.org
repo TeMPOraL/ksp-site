@@ -9,13 +9,15 @@
 #+TEMPLATE_DIR: ./templates
 #+FILENAME_SANITIZER: ob-sanitize-string
 
-* Hello World
+* Welcome to the Tempoverse!
   :PROPERTIES:
   :PAGE: index.html
   :TEMPLATE: blog_static_no_title.html
   :END:
 
-  Foo bar.
+  Welcome to the Tempoverse, a multiverse of various Kerbal Space
+  Programs! This page is a blog/wiki (bliki) documenting all the
+  exploits of Kerbonauts.
 
 ** Last updates
    <2014-12-13 Sat> - the website got created! I'll be posting here
@@ -29,6 +31,18 @@
   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/index.html][0.25 Career]]
   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/090C/index.html][0.90 Career - coming soon!]]
 
+* Last updates
+  :PROPERTIES:
+  :PAGE: news.html
+  :TEMPLATE: blog_static.html
+  :END:
+
+  /This page should (and will be) more dynamically generated./
+
+  <2014-12-13 Sat> - the website got created! I'll be posting here
+  update/change logs as blog posts so that those of you who have been
+  here before can see what's new and how the Multiverse is
+  developing.
 
 * Blog details
 ** Copyright
@@ -149,21 +163,48 @@
 *** Backstory
     /Documentation of this universe started after I already played it for something like 40 hours. This serves as a summary of things that happened before I started this page./
 
+    It's Year 1, Day 126 of the Kerbal Space Program. Great deeds have
+    been accomplished. Kerbals have landed on the surface of the Mün
+    and Minmus, explored their own world with rockets, planes and
+    satellites, gathering Science wherever possible. They also have
+    their first permanent orbital presence - the  [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/space-station-one.html][Space Station One]].
+    But progress doesn't come free of causalties - two brave Kerbonauts
+    gave ther lives in the pursuit of SCIENCE.
+
+    Now, as the Space Program transitions to a more mature level, many
+    [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies.html][agencies]] have committed themselves to the adventure and the aim
+    was never higher - to the Mün, Duna and beyond!
+
 *** Summary
     | *Celestial bodies scanned by Kerbals* |        3 |
     | *Celestial bodies visited by Kerbals* |        3 |
     | *Kerbals MIA*                         |        2 |
     | *Kerbals stranded*                    |        2 |
-    | *Kessler syndrome danger*             | Moderate |
+    | *[[http://en.wikipedia.org/wiki/Kessler_syndrome][Kessler syndrome]] danger*             | Moderate |
+
+
+*** Stranded and MIA Kerbals
+    | *Kerbonaut*       | *Status* | *Details*                                                        |
+    | /Undisclosed/     | MIA      | Accidental reentry.                                              |
+    | /Undisclosed/     | MIA      | Crashed into the Mün during first attempt at Mün landing.        |
+    | /Doodlorf Kerman/ | Stranded | Orbiting Minmus, run out of ΔV.                                  |
+    | /Philgrad Kerman/ | Stranded | [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/mun-skycrane.html][Stranded at the surface of the Moon, used up all ΔV for landing]]. |
 
 *** Starting points
     - Recent updates.
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions.html][List of planned, ongoing and completed missions]].
+    - List of notable Kerbals.
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases.html][List of base projects]].
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships.html][List of ship projects]].
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies.html][List of space agencies]].
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/standards.html][List of standards]].
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/mods.html][Mods used in this universe]].
+
+
+*** Status of the Tech Tree
+    #+begin_html
+    <a href="http://imgur.com/CS1hJoT"><img src="http://i.imgur.com/CS1hJoT.png" title="source: imgur.com" /></a>
+    #+end_html
 
 ** List of Missions
   :PROPERTIES:
@@ -191,7 +232,12 @@
 
     *STATUS: AWAITING RESCUE OP*
 
-    This mission involved designing of a rover and a lifting vehicle - a skycrane.
+    This mission involved designing of a rover and a lifting vehicle -
+    a skycrane - with a Mün mission in mind.
+
+    #+BEGIN_HTML
+    <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/RugsR/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
+    #+END_HTML
 
     During the first orbital tests KSC command realized that the
     orbiting module has enough fuel to actually get to the Mün,
@@ -205,17 +251,48 @@
     All in all, KSC considers this to be a first successfull
     application of lithobraking on an off-world expedition.
 
-    The landing was attempted in the area TODO WHAT COMPANY wanted
+    The landing was attempted in the area [[http://wiki.kerbalspaceprogram.com/wiki/Category:Kerbal_Motion_LLC][Kerbal Motion LLC]] wanted
     surveyed by a rover; unfortunately, due to poor steering
     capabilities of the broken rover, the survey could not be
     completed.
 
-    The end result is, TODO WHO is stranded on the surface with a
+    The end result is, poor Philgrad Kerman is stranded on the surface with a
     broken rover, awaiting a planned rescue mission.
 
-    #+BEGIN_HTML
-    <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/RugsR/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
-    #+END_HTML
+*** Worker Bees Mk1 Program
+  :PROPERTIES:
+  :PAGE:     uni/025C/missions/worker-bees-mk1.html
+  :END:
+
+    Worker Bees Mk1 Program is an ongoing operation of [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/maxo.html][Maxo Construction Toys]], aimed
+    to design a framework for efficient space station construction, and in the future
+    maintenance and construction of vessels in space.
+
+    After the successful launch of the first module of [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/space-station-one.html][Space Station One]]
+    people at Maxo Construction Toys realized that building space stations
+    is much more interesting than just making box-sized struts. Hence,
+    the Worker Bees program was born.
+
+    The idea behind the program is the creation of Worker Bees - very
+    small utility ships designed to assist in orbital construction
+    works by positioning and connecting resources and performing
+    maintenance duties.
+
+    The Mark One program includes two Bee types and a Beehive - a
+    portable docking and refueling station that serves as a central
+    hub of Bee operations.
+
+    For more details about the hardware involved, see the following links:
+
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/beehive-mk1.html][Beehive Mk1]]
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships/worker-bee-mk1-manned.html][Worker Bee Mk1 (Manned)]]
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships/hauler-bee-mk1-manned.html][Hauler Bee Mk1 (Manned)]]
+
+    Currently, a single Beehive and two Worker Bees Mk1 are
+    operational and docked to the Space Station One, as a joint
+    initiative between Maxo Construction Toys and KSC, aimed at
+    completing the station while testing the actual usefulness of the
+    Bee system.
 
 ** List of Bases
   :PROPERTIES:
@@ -233,6 +310,20 @@
   :PAGE:     uni/025C/bases/space-station-one.html
   :END:
 
+    The first Kerbal habitat in space, a part of an Orbital Home
+    initiative, Space Station One is a manned space station on a
+    more-less equatorial orbit.
+
+    #+begin_html
+    <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/W0NkS/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
+    #+end_html
+
+    Currently the station has the following modules:
+    - Space Lab
+    - Command Pod / Emergency Escape Capsule
+    - Liquid Fuel Tank / Docking Hub
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/beehive-mk1.html][Beehive Mk1]] (temporarily attached as a part of the Worker Bees Mk1 Program)
+
 *** Beehive Mk1
   :PROPERTIES:
   :PAGE:     uni/025C/bases/beehive-mk1.html
@@ -243,10 +334,13 @@
     Worker Bees Mk1 Program, this structure is likely going to be a
     common view on all space construction sites.
 
+    #+begin_html
+    <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/2Qu2O/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
+    #+end_html
+
     The Beehive houses up to six Bees - up to four Worker Bees and up
-    to two Hauler Bees. The facility holds two TODO TYPE
-    monopropellant tanks and one TYPE liquid fuel tanks, and thus is
-    well-suited for ensuring ongoing construction operations.
+    to two Hauler Bees. The facility holds two [[http://wiki.kerbalspaceprogram.com/wiki/FL-R1_RCS_Fuel_Tank][FL-R1 monopropellant tanks]] and one
+    [[http://wiki.kerbalspaceprogram.com/wiki/Rockomax_X200-16_Fuel_Tank][Rockomax X200-16 liquid fuel tank]], and thus is well-suited for ensuring uninterrupted construction operations.
 
     #+begin_quote
     With the Worker Bees Mark One Program we're hoping to standarize
@@ -263,31 +357,88 @@
 
     McKerbley Station is a planned [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/maxo.html][Maxo Construction Toys]] project for an orbital facility.
 
+    #+begin_html
+    <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/BkX37/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
+    #+end_html
+
 ** List of Ships
   :PROPERTIES:
   :PAGE:     uni/025C/ships.html
   :END:
 
-   - Worker Bee Mk1 (Manned)
-   - Hauler Bee Mk1 (Manned)
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships/worker-bee-mk1-manned.html][Worker Bee Mk1 (Manned)]]
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships/hauler-bee-mk1-manned.html][Hauler Bee Mk1 (Manned)]]
 
-   - The Plane
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships/the-plane.html][The Plane]]
 
-   - Super Heavy Lifter
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships/mun-rover.html][Mün Rover]]
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships/mun-skycrane.html][Mün Skycrane]]
+
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships/super-heavy-lifter.html][Super Heavy Lifter]]
 
 ** Ships
 
 *** Worker Bee Mk1 (Manned)
+  :PROPERTIES:
+  :PAGE:     uni/025C/ships/worker-bee-mk1-manned.html
+  :END:
+
+    #+begin_html
+    <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/gm3G3/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
+    #+end_html
 
 *** Hauler Bee Mk1 (Manned)
+  :PROPERTIES:
+  :PAGE:     uni/025C/ships/hauler-bee-mk1-manned.html
+  :END:
+
+    #+begin_html
+    <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/0Xj0t/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
+    #+end_html
 
 *** The Plane
+  :PROPERTIES:
+  :PAGE:     uni/025C/ships/the-plane.html
+  :END:
+
+    The Plane is KSC's second airplane and the first one sent to
+    perform real missions (as opposed to crashing around the runway).
+
+    #+begin_html
+    <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/wJ738/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
+    #+end_html
+
+    It takes off pretty well, flies rather fast, but handles poorly
+    and no one has figured out how to land that damn thing without a
+    crash. In particular, it generates too much lift and has a
+    tendency to keep going up, whether the pilot likes it or not.
+
+    The Plane is also the first aerial vehicle that conforms to
+    [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/standards/kso-2048-1.html][KSO 2048:1 standard for active visual markers]]. While the standard was
+    originally developed for space applications, it is on its way to be extended
+    to cover all airborne and space vehicles.
 
 *** Mün Rover
+  :PROPERTIES:
+  :PAGE:     uni/025C/ships/mun-rover.html
+  :END:
+
+    See [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/mun-skycrane.html][Mün Skycrane Mission]].
 
 *** Mün Skycrane
+  :PROPERTIES:
+  :PAGE:     uni/025C/ships/mun-skycrane.html
+  :END:
+
+    See [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/mun-skycrane.html][Mün Skycrane Mission]].
 
 *** Super Heavy Lifter
+  :PROPERTIES:
+  :PAGE:     uni/025C/ships/super-heavy-lifter.html
+  :END:
+
+    The standard launch vehicle of KSC that helped Kerbals reach Mün,
+    Minmus and build their [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/space-station-one.html][first space station]].
 
 ** List of Agencies
   :PROPERTIES:
@@ -296,19 +447,17 @@
 
    This list contains all agencies that have associated stories within the universe.
 
-*** Space Agencies
-     Textual description.
-     
-     A paragraph or three.
-
-     More.
-
+*** Space Exploration Agencies
+    - KSC
 *** Construction Agencies
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/maxo.html][Maxo Construction Toys]]
 *** Research Agencies
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/hexagon.html][Hexagon Research]]
     - TRC
       - TRC 4th Wall Division
+
+*** Various
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/tree-huggers.html][Tree Huggers Foundation]]
 
 ** Agencies
 *** Hexagon Research
@@ -324,6 +473,25 @@
     Description + logo.
 
     Also link to: http://wiki.kerbalspaceprogram.com/wiki/Category:Maxo_Construction_Toys.
+
+*** Tree Huggers Foundation
+  :PROPERTIES:
+  :PAGE:     uni/025C/agencies/tree-huggers.html
+  :END:
+    An eco-terrorist group turned environmental protection agency, the
+    aim of Tree Huggers is to protect the native environment of Kerbin
+    and other celestial bodies from pollution and destruction by the
+    careless Kerbonauts.
+
+    Tree Huggers hold a serious grudge against Hexagon Research for
+    [[http://tvtropes.org/pmwiki/pmwiki.php/Main/ColonyDrop][colony-dropping]] a research mission to the North Pole, littering
+    Kerbin with spent rocket parts. While the subsequent mess was
+    cleaned up by the KSC crew, the foundation wants to make sure
+    something like this never happens again.
+
+    Current project of Tree Huggers involves designing an orbital
+    garbage truck to clean up the orbit of Kerbin before accumulating
+    debree cause an acute case of [[http://en.wikipedia.org/wiki/Kessler_syndrome][Kessler syndrome]].
 
 ** List of standards
   :PROPERTIES:
