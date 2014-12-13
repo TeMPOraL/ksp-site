@@ -216,13 +216,12 @@
 
 *** Ongoing
    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/mun-skycrane.html][Mün Skycrane]]
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/worker-bees-mk1.html][Worker Bees Mk1 Program]]
    - Duna survey probe
-   - Worker Bees Mk1 Program
 
 *** Completed
    - Mün survey probe
    - Minmus survey probe
-
 
 ** Missions
 *** Mün Skycrane
