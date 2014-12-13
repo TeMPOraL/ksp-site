@@ -185,14 +185,15 @@
 
 
 *** Stranded and MIA Kerbals
-    | *Kerbonaut*       | *Status* | *Details*                                                        |
-    |-------------------+----------+------------------------------------------------------------------|
-    | /Undisclosed/     | MIA      | Accidental reentry.                                              |
-    | /Undisclosed/     | MIA      | Crashed into the Mün during first attempt at Mün landing.        |
-    | /Bill Kerman/     | MIA      | Killed by an explosion during the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kraken-encounters/space-station-one.html][First Kraken Incident]].         |
-    | /Bob Kerman/      | MIA      | Killed by an explosion during the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kraken-encounters/space-station-one.html][First Kraken Incident]].         |
-    | /Doodlorf Kerman/ | Stranded | Orbiting Minmus, run out of ΔV.                                  |
-    | /Philgrad Kerman/ | Stranded | [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/mun-skycrane.html][Stranded at the surface of the Moon, used up all ΔV for landing]]. |
+    | *Kerbonaut*       | *Status* | *Details*                                                                              |
+    |-------------------+----------+----------------------------------------------------------------------------------------|
+    | /Undisclosed/     | MIA      | Accidental reentry.                                                                    |
+    | /Undisclosed/     | MIA      | Crashed into the Mün during first attempt at Mün landing.                              |
+    | /Bill Kerman/ #1  | MIA      | Killed by an explosion during the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kraken-encounters/space-station-one.html][First Kraken Incident]].                               |
+    | /Bob Kerman/ #1   | MIA      | Killed by an explosion during the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kraken-encounters/space-station-one.html][First Kraken Incident]].                               |
+    | /Ribbo Kerman/    | MIA      | Killed by a spacelab explosion during the Second Haunting of Space Station One. (TODO) |
+    | /Doodlorf Kerman/ | Stranded | Orbiting Minmus, run out of ΔV.                                                        |
+    | /Philgrad Kerman/ | Stranded | [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/mun-skycrane.html][Stranded at the surface of the Moon, used up all ΔV for landing]].                       |
 
 *** Starting points
 #    - Recent updates.
