@@ -3,6 +3,7 @@
 #+date: 2014-12-11 22:09:00
 
 #+startup: hidestars
+#+startup: logdone
 
 #+URL: http://kerbals.buildsomethingamazing.com/
 
@@ -20,10 +21,9 @@
   exploits of Kerbonauts.
 
 ** Last updates
-   <2014-12-13 Sat> - the website got created! I'll be posting here
-   update/change logs as blog posts so that those of you who have been
-   here before can see what's new and how the Multiverse is
-   developing.
+   - /2014-12-13 Sat/ *[025C]* [[file:{lisp}(ob:path-to-root){/lisp}/posts/2014/12/13_a-wild-kraken-appears.html][A Wild Kraken seriously damaged the Space Station One]].
+
+   - /2014-12-13 Sat/ the website got created! I'll be posting here update/change logs as blog posts so that those of you who have been here before can see what's new and how the Multiverse is developing.
 
 ** Universes
    All universes the Tempoverse comprises of.
@@ -39,10 +39,11 @@
 
   /This page should (and will be) more dynamically generated./
 
-  <2014-12-13 Sat> - the website got created! I'll be posting here
-  update/change logs as blog posts so that those of you who have been
-  here before can see what's new and how the Multiverse is
-  developing.
+   - /2014-12-13 Sat/ *[025C]* [[file:{lisp}(ob:path-to-root){/lisp}/posts/2014/12/13_a-wild-kraken-appears.html][A Wild Kraken seriously damaged the Space Station One]].
+   - /2014-12-13 Sat/ the website got created! I'll be posting here
+   update/change logs as blog posts so that those of you who have been
+   here before can see what's new and how the Multiverse is
+   developing.
 
 * Blog details
 ** Copyright
@@ -167,7 +168,7 @@
     been accomplished. Kerbals have landed on the surface of the Mün
     and Minmus, explored their own world with rockets, planes and
     satellites, gathering Science wherever possible. They also have
-    their first permanent orbital presence - the  [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/space-station-one.html][Space Station One]].
+    their first permanent orbital presence - the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/space-station-one.html][Space Station One]].
     But progress doesn't come free of causalties - two brave Kerbonauts
     gave ther lives in the pursuit of SCIENCE.
 
@@ -178,26 +179,30 @@
 *** Summary
     | *Celestial bodies scanned by Kerbals* |        3 |
     | *Celestial bodies visited by Kerbals* |        3 |
-    | *Kerbals MIA*                         |        2 |
+    | *Kerbals MIA*                         |        4 |
     | *Kerbals stranded*                    |        2 |
-    | *[[http://en.wikipedia.org/wiki/Kessler_syndrome][Kessler syndrome]] danger*             | Moderate |
+    | *Kessler syndrome danger*             | Moderate |
 
 
 *** Stranded and MIA Kerbals
     | *Kerbonaut*       | *Status* | *Details*                                                        |
+    |-------------------+----------+------------------------------------------------------------------|
     | /Undisclosed/     | MIA      | Accidental reentry.                                              |
     | /Undisclosed/     | MIA      | Crashed into the Mün during first attempt at Mün landing.        |
+    | /Bill Kerman/     | MIA      | Killed by an explosion during the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kraken-encounters/space-station-one.html][First Kraken Incident]].         |
+    | /Bob Kerman/      | MIA      | Killed by an explosion during the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kraken-encounters/space-station-one.html][First Kraken Incident]].         |
     | /Doodlorf Kerman/ | Stranded | Orbiting Minmus, run out of ΔV.                                  |
     | /Philgrad Kerman/ | Stranded | [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/mun-skycrane.html][Stranded at the surface of the Moon, used up all ΔV for landing]]. |
 
 *** Starting points
-    - Recent updates.
+#    - Recent updates.
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions.html][List of planned, ongoing and completed missions]].
-    - List of notable Kerbals.
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kerbals.html][List of notable Kerbals]].
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases.html][List of base projects]].
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships.html][List of ship projects]].
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies.html][List of space agencies]].
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/standards.html][List of standards]].
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kraken-encounters.html][List of Deep Space Kraken encounters]].
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/mods.html][Mods used in this universe]].
 
 
@@ -212,18 +217,37 @@
   :END:
 
 *** Planned
-    - McKerbley Refueling and Maintenance Station
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/mckerbley-station.html][McKerbley Refueling and Maintenance Station]]
+   - Mün orbital facility
 
 *** Ongoing
    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/mun-skycrane.html][Mün Skycrane]]
    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/worker-bees-mk1.html][Worker Bees Mk1 Program]]
-   - Duna survey probe
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/duna-survey-probe.html][Duna survey probe]]
 
 *** Completed
    - Mün survey probe
    - Minmus survey probe
+   - Polar survey of Kerbin
+   - Manned Mün landing and return
+   - Manned Minmus landing and return
 
 ** Missions
+
+*** McKerbley Refueling and Maintenance Station
+  :PROPERTIES:
+  :PAGE:     uni/025C/missions/mckerbley-station.html
+  :END:
+
+    McKerbley Refueling and Maintenance Station is a planned mission
+    of [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/maxo.html][Maxo Construction Toys]] to design and construct a
+    [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/mckerbley-station.html][McKerbley-class station]] in orbit of Kerbin.
+
+    The goal of this project is to gain experience in building big
+    space stations, capable of housing - and in the future,
+    assembling - interplanetary vessels and smaller orbital
+    facilities inside of the station.
+
 *** Mün Skycrane
   :PROPERTIES:
   :PAGE:     uni/025C/missions/mun-skycrane.html
@@ -293,6 +317,45 @@
     completing the station while testing the actual usefulness of the
     Bee system.
 
+*** Duna survey probe
+  :PROPERTIES:
+  :PAGE:     uni/025C/missions/duna-survey-probe.html
+  :END:
+
+    Duna survey probe is a research mission of [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/hexagon.html][Hexagon Research]], on its way to Duna.
+
+    #+begin_html
+    <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/9Qbyb/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
+    #+end_html
+
+    The mission is being carried out by Mark Two Exoplanet Explorer,
+    carrying a full package of sensors for imagining the planet,
+    searching for Kethane deposits, as well as a lot of scientific
+    equipment.
+
+
+** List of notable Kerbals
+  :PROPERTIES:
+  :PAGE:     uni/025C/kerbals.html
+  :END:
+
+   This list contains all the distinguished names of Kerbonauts in the Kerbal Space Program.
+
+   The idea to start tracking the achievements of Kerbonauts was one of the ideas suggested
+   by the infamous [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/4th-wall.html][4W group]].
+
+   /The achievements in the early time of the Space Program, as described in the Universe backstory, are not counted./
+
+   | *Kerbonaut*     | *Missions* | *EVA time* | *Ribbons* |
+   |-----------------+------------+------------+-----------|
+   | Jebediah Kerman | TBD        | TBD        | TBD       |
+   | Bob Kerman      | TBD        | TBD        | TBD       |
+   | Bill Kerman     | TBD        | TBD        | TBD       |
+   | Doodlorf Kerman | TBD        | TBD        | TBD       |
+   | Rogas Kerman    | TBD        | TBD        | TBD       |
+   | Philgrad Kerman | TBD        | TBD        | TBD       |
+
+
 ** List of Bases
   :PROPERTIES:
   :PAGE:     uni/025C/bases.html
@@ -318,10 +381,12 @@
     #+end_html
 
     Currently the station has the following modules:
-    - Space Lab
+    - +Space Lab+ (destroyed during the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kraken-encounters/space-station-one.html][First Kraken Incident]])
     - Command Pod / Emergency Escape Capsule
     - Liquid Fuel Tank / Docking Hub
-    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/beehive-mk1.html][Beehive Mk1]] (temporarily attached as a part of the Worker Bees Mk1 Program)
+    - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/beehive-mk1.html][Beehive Mk1]] (temporarily attached as a part of the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/worker-bees-mk1.html][Worker Bees Mk1 Program]]; damaged during the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kraken-encounters/space-station-one.html][First Kraken Incident]])
+
+    The station was severely damaged during the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kraken-encounters/space-station-one.html][First Kraken Incident]].
 
 *** Beehive Mk1
   :PROPERTIES:
@@ -330,7 +395,7 @@
 
     The Beehive acts as a home, refueling and maintenance station for
     Mark One Worker Bees. Developed by [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/maxo.html][Maxo Construction Toys]] for
-    Worker Bees Mk1 Program, this structure is likely going to be a
+    the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/worker-bees-mk1.html][Worker Bees Mk1 Program]], this structure is likely going to be a
     common view on all space construction sites.
 
     #+begin_html
@@ -382,18 +447,61 @@
   :PAGE:     uni/025C/ships/worker-bee-mk1-manned.html
   :END:
 
+    The Mark One Worker Bee is the primary ship of the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/worker-bees-mk1.html][Worker Bees Mk1 Program]] of [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/maxo.html][Maxo Construction Toys]].
+
     #+begin_html
     <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/gm3G3/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
     #+end_html
+
+    The Worker Bee is a manned vessel designed for high mobility and
+    accuracy. Its primary goal is to assist in docking procedures by
+    attaching to the new components and precisely positioning them
+    into place in a structure being built.
+
+    The Bee is equipped only with RCS engines, as it is intended only
+    to operate in the vicinity of the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/beehive-mk1.html][Beehive]].
+
+    The Bee houses a number of important support systems for construction operations:
+    - a set of forward and backward lights that illuminate the area in front of the bee, as well as the structure it is docking to
+    - a set of [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/standards/kso-2048-1.html][KSO 2048:1]]-conforming navigation lights that help observers to determine Bee's orientation
+    - a rear camera just above the docking port, that helps in precise docking maneuvering
+
+    Initial testing on the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/space-station-one.html][Space Station One]] confirmed the
+    maneuverability of the craft, but led to a discovery of a serious
+    flaw - the RCS ports are not properly aligned, so the Bee without
+    any load attached needs to keep SAS on to stabilize its
+    orientation during translation maneuvers.
 
 *** Hauler Bee Mk1 (Manned)
   :PROPERTIES:
   :PAGE:     uni/025C/ships/hauler-bee-mk1-manned.html
   :END:
 
+    The Mark One Hauler Bee is the heavy lifter of the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/missions/worker-bees-mk1.html][Worker Bees Mk1 Program]] of [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/maxo.html][Maxo Construction Toys]].
+
     #+begin_html
     <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/0Xj0t/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
     #+end_html
+
+    The Hauler Bee is a manned vessel designed for moving heavy
+    objects, such as big fuel transports, or entire space stations.
+
+    The RCS system was replaced by liquid fuel-based maneuvering
+    thrusters that provide significantly higher trust, exceeding that
+    of many a space vessel.
+
+    Since the Hauler Bee is expected to move heavy loads of various
+    types, it has been designed with /three/ docking ports - one in
+    front, one on the back, and one at the bottom.
+
+    The Bee houses a number of important support systems for construction operations:
+    - a set of lights next to each docking port that help the operators see what they're docking to
+    - a set of [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/standards/kso-2048-1.html][KSO 2048:1]]-conforming navigation lights that help observers to determine Bee's orientation
+    - a camera next every docking port that helps in precise docking maneuvering
+
+    No vessel of this class is currently operational. Only static
+    tests on the KSC launchpad were performed, however with quite
+    encouraging results.
 
 *** The Plane
   :PROPERTIES:
@@ -453,7 +561,7 @@
 *** Research Agencies
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/hexagon.html][Hexagon Research]]
     - TRC
-      - TRC 4th Wall Division
+      - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/4th-wall.html][TRC 4th Wall Division]]
 
 *** Various
     - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/agencies/tree-huggers.html][Tree Huggers Foundation]]
@@ -491,6 +599,81 @@
     Current project of Tree Huggers involves designing an orbital
     garbage truck to clean up the orbit of Kerbin before accumulating
     debree cause an acute case of [[http://en.wikipedia.org/wiki/Kessler_syndrome][Kessler syndrome]].
+
+*** TRC 4th Wall Division
+  :PROPERTIES:
+  :PAGE:     uni/025C/agencies/4th-wall.html
+  :END:
+
+    The TRC 4th Wall Division, also known as the 4W Group, is a
+    research and development division of TRC with a somewhat
+    questionable reputation.
+
+    While time and again proving itself to be vital to the success of
+    the Kerbal Space Program, the 4th Wall Division is by many
+    considered to be a bunch of lunatics that do not fit anywhere
+    else. Such reputation comes from the fact that the members of this
+    group often claim to be able to talk with beings from another
+    dimensions and they develop metaphysics that is unlike anything
+    any Kerbal would ever conceive, save for those committed to mental
+    asylums.
+
+    Among the notable achievements of the 4th Wall Division (or "break
+    throughs", as they call it, spelled as two separate words) are:
+
+    - convincing the KSC about the beauty of the Kerbin system, at
+      which point KSC staff started noticing things like volumetric
+      clouds and city lights
+    - pointing out the awesomeness of engine exhausts and all that
+      sparks flying from under crashing vehicles
+    - upgrading the internal displays of all vehicles
+    - introducing the ribbon ranking and achievement tracking for Kerbonauts
+
+    The group is now focused on further research into user interfaces
+    of KSC vessels.
+
+
+** List of Deep Space Kraken encounters
+  :PROPERTIES:
+  :PAGE:     uni/025C/kraken-encounters.html
+  :END:
+
+   - [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kraken-encounters/space-station-one.html][Encounter at Space Station One]], that damaged [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/space-station-one.html][Space Station One]]
+     and claimed lives of two Kerbonauts.
+
+** Deep Space Kraken encounters
+
+*** Encounter at Space Station One
+   :PROPERTIES:
+   :PAGE:     uni/025C/kraken-encounters/space-station-one.html
+   :END:
+
+    | Time | Year 1, day 127 |
+
+    The Kraken Encounter at [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/space-station-one.html][Space Station One]], also known as the First Kraken Incident,
+    was a rapid unplanned disassembly of Space Station One.
+
+    #+begin_html
+    <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/hPQRT/embed?background=f2f2f2&text=1a1a1a&link=4e76c9"></iframe>
+    #+end_html
+
+    In the process, Space Station One lost the Science Lab module, a
+    deployable solar panel and half of the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/beehive-mk1.html][Beehive Mk1]] (the fuel tank
+    and the Cupola).
+
+    The explosion claimed lives of Bill and Bob Kermans, who were
+    stationed at the Science Lab at the time of incident.
+
+    Rogas Kerman was jettisoned into space with the Cupola, but
+    managed to EVA back to the station and then performed thorough
+    inspection of the area on a [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships/worker-bee-mk1-manned.html][Worker Bee Mk1]].
+
+    The possible cause was traced back to a strange double docking
+    port on the now-gone Space Lab module. It is unclear whether this
+    weird part is the doing of the Kraken, or engineers at KSC. The
+    docking port was jettissoned in order to avoid drawing further
+    interest from the Deep Space Kraken.
+    
 
 ** List of standards
   :PROPERTIES:
@@ -562,13 +745,35 @@
     - [[http://forum.kerbalspaceprogram.com/threads/101496-0-25-Collision-FX][Collision FX]]
     - [[http://forum.kerbalspaceprogram.com/threads/56510-0-23-Crowd-sourced-Science-Logs-SCIENCE-NEEDS-YOU!][Crowdsourced Science Definitions]] /(old version; didn't realize there was a [[http://forum.kerbalspaceprogram.com/threads/102373-Plugin-Delta-0-25-Crowd-Sourced-Science-Under-New-Management][new release]])/
     - [[http://forum.kerbalspaceprogram.com/threads/55905-0-24-7-4-Sep-9-2014-EnvironmentalVisualEnhancements][Environmental Visual Enhancements]]
+    - [[http://forum.kerbalspaceprogram.com/threads/67246-0-23-5-Final-Frontier-kerbal-individual-merits-0-3-15][Final Frontier]]
     - [[http://www.curse.com/ksp-mods/kerbal/222813-flag-decals-v2-1][Flag Decals]]
     - [[http://forum.kerbalspaceprogram.com/threads/65754-HotRockets!-Particle-FX-Replacement-Tutorial][HotRockets! Particle FX Replacement]]
     - [[http://forum.kerbalspaceprogram.com/threads/96497-0-25-PlanetShine-v0-2-2][PlanetShine]]
     - [[http://forum.kerbalspaceprogram.com/threads/52896-0-25-RCS-Sound-%28and-light!%29-Effects][RCS Sound (and light!) Effects]]
     - [[http://forum.kerbalspaceprogram.com/threads/60961-0-25-TextureReplacer-2-0-2-%286-12-2014%29-GUI-for-customising-Kerbals][TextureReplacer]]
 
+* Posts
 
+** DONE A wild Kraken appears!                                  :025C:Kraken:
+   CLOSED: [2014-12-13 So 13:06]
+   Just as the Kerbals were drafting a new mission to the Mün, a loud
+   scream was heard in the Mission Control. Suddenly, the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/bases/space-station-one.html][Space Station One]] exploded!
+
+   No one expected it to happen until it was too late - the Space Lab
+   was gone, taking the lives of Bill and Bob Kermans, and poor Rogas
+   Kerman was jettisoned into space in the Cupola, when the liquid
+   fuel tank under his feet underwent spontaneous combustion.
+
+   Fortunately, Rogas managed to EVA his way to the station, and then
+   took a [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/ships/worker-bee-mk1-manned.html][Worker Bee]] to search for survivors and inspect the damage.
+
+   Out of the original four Kerbal crew, only Rogas and Jeb remained.
+
+   A truly sad day for the Kerbal Space Program, that will become
+   known in the history books as the First Kraken Incident.
+
+   See the [[file:{lisp}(ob:path-to-root){/lisp}/uni/025C/kraken-encounters/space-station-one.html][Encounter at Space Station One]] Wiki entry for photos of the
+   incident.
 
 * Universe - 0.90 Career
 ** 090C - 0.90 Career Mode
